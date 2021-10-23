@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633875387005" clover="3.2.0">
-  <project timestamp="1633875387007" name="All files">
-    <metrics statements="26" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="34" coveredelements="28" complexity="0" loc="26" ncloc="26" packages="3" files="4" classes="4"/>
+<coverage generated="1635004369366" clover="3.2.0">
+  <project timestamp="1635004369366" name="All files">
+    <metrics statements="24" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="32" coveredelements="28" complexity="0" loc="24" ncloc="24" packages="2" files="3" classes="3"/>
     <package name="controllers.signup">
       <metrics statements="21" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="/home/gabriel/clean-node-api/src/presentation/controllers/signup/signup-protocols.ts">
@@ -16,20 +16,20 @@
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="11" count="9" type="stmt"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
-        <line num="18" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="34" type="cond" truecount="2" falsecount="0"/>
         <line num="19" count="4" type="stmt"/>
-        <line num="22" count="5" type="stmt"/>
-        <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="24" count="1" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="28" count="1" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -39,14 +39,6 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="protocols">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/home/gabriel/clean-node-api/src/presentation/protocols/index.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
       </file>
     </package>
   </project>
