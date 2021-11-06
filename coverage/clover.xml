@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1635817731586" clover="3.2.0">
-  <project timestamp="1635817731587" name="All files">
-    <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="6" coveredelements="0" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
-    <file name="mongo-helper.ts" path="/home/gabriel/develop/clean-node-api/src/infra/db/mongodb/helpers/mongo-helper.ts">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <line num="1" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-    </file>
+<coverage generated="1636206512622" clover="3.2.0">
+  <project timestamp="1636206512622" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="17" coveredelements="17" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
+    <package name="account-repository">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="account.ts" path="/home/gabriel/develop/clean-node-api/src/infra/db/mongodb/account-repository/account.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="mongo-helper.ts" path="/home/gabriel/develop/clean-node-api/src/infra/db/mongodb/helpers/mongo-helper.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
